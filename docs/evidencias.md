@@ -7,9 +7,9 @@ Incluye aquí capturas o salidas relevantes del cuaderno.
 - Captura del Spark Master UI ![Captura del Spark Master UI](image-1.png)
 
 ## 2. Lectura de datos
-- Esquema de `clientes` ![Esquema de clientes](image-2.png)
-- Esquema de `pedidos` ![Esquema de pedidos](image-3.png)
-- Muestra inicial de datos ![Muestra inicial de datos](image-4.png)
+- Esquema de `clientes` ![Esquema de clientes](image-5.png)
+- Esquema de `pedidos` ![Esquema de pedidos](image-2.png)
+- Muestra inicial de datos ![Muestra inicial de datos](image-3.png)
 
 ## 3. Limpieza
 - Resultado tras `trim` 

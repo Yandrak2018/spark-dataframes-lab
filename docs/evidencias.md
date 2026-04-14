@@ -44,7 +44,18 @@ Incluye aquí capturas o salidas relevantes del cuaderno.
 
 ## 6. SQL
 - Consulta SQL realizada 
-- Resultado obtenido 
+    Consulta SQL:
+        query_sql = """
+            SELECT 
+                nivel_pedido, 
+                COUNT(*) as total_pedidos, 
+                SUM(importe) as ingresos_totales,
+                ROUND(AVG(importe), 2) as ticket_medio
+            FROM ventas_reporte
+            GROUP BY nivel_pedido
+            ORDER BY ingresos_totales DESC
+        """
+- Resultado obtenido ![Resultado de la consulta sql](image-8.png)
 
 ## 7. Parquet
 - Escritura del resultado 

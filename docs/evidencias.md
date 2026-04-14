@@ -58,5 +58,5 @@ Incluye aquí capturas o salidas relevantes del cuaderno.
 - Resultado obtenido ![Resultado de la consulta sql](image-8.png)
 
 ## 7. Parquet
-- Escritura del resultado 
-- Lectura posterior del fichero Parquet 
+- Escritura del resultado ![Escritura del resultado](image-9.png)
+- Lectura posterior del fichero Parquet ![Lectura posterior del fichero Parquet](image-10.png)

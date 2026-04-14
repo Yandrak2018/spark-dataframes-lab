@@ -14,7 +14,7 @@ Incluye aquí capturas o salidas relevantes del cuaderno.
 ## 3. Limpieza
 - Resultado tras `trim` 
 - Eliminación de duplicados 
-- Tratamiento de valores nulos 
+- Tratamiento de valores nulos ![Punto 2 realizado, limpieza](image-4.png)
 
 ## 4. Join
 - Resultado del join entre clientes y pedidos 

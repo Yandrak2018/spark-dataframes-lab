@@ -28,8 +28,19 @@ Incluye aquí capturas o salidas relevantes del cuaderno.
         3. Inconsistencias en los IDs: A veces, aunque el cliente exista, si el ID tiene formatos distintos (por ejemplo, un espacio extra como " 5" vs "5"), Spark no los reconocerá como iguales y descartará la unión.
 
 ## 5. Agregaciones
-- Resumen por ciudad y segmento 
+- Resumen por ciudad y segmento ![Resumen por ciudad y segmento](image-7.png)
 - Interpretación breve de los resultados 
+        Interpretación de resultados (Agregaciones)
+
+        Tras analizar las métricas de ventas agrupadas por ciudad y nivel de pedido, se observan las siguientes conclusiones:
+
+            Dominio de pedidos "Alto": En la mayoría de las ciudades (como Alicante, Bilbao y Granada), el mayor volumen de ingresos proviene de pedidos categorizados como "Alto" (>= 200€). Esto indica que el ticket promedio de estos clientes es elevado y representan el motor principal de ingresos.
+
+            Distribución geográfica: Ciudades como Bilbao y Alicante destacan por tener una cantidad significativa de pedidos de alto valor (18 y 11 pedidos respectivamente), lo que sugiere que son mercados clave para la empresa.
+
+            Eficiencia de ventas: El promedio_importe nos permite ver que, aunque en algunas ciudades hay pocos pedidos, estos son muy rentables. Por ejemplo, en Alicante, el promedio de los pedidos "Alto" supera los 1.400€, lo que indica ventas individuales de gran volumen.
+
+            Segmentos minoritarios: Los pedidos de nivel "Bajo" y "Medio" tienen una frecuencia mucho menor y aportan una suma total de ingresos reducida en comparación con el segmento superior, lo que sugiere que el modelo de negocio está muy orientado a clientes de tipo Premium o compras de gran escala.
 
 ## 6. SQL
 - Consulta SQL realizada 
